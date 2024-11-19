@@ -1,0 +1,207 @@
+/* Fuentes que se asemejan a lo que buscas */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Russo+One&display=swap');
+
+/* Estilo general para el body */
+body {
+    font-family: 'Orbitron', sans-serif; /* Fuente futurista */
+    font-size: 20px; /* Reducido el tamaño de la letra */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    text-transform: uppercase; /* Letras en mayúsculas */
+    color: white;
+    background-color: #121212; /* Fondo oscuro para contraste */
+    padding-top: 56px; /* Ajusta este valor según la altura de tu navbar */
+}
+
+/* Títulos principales */
+h1, h2, h3 {
+    font-family: 'Russo One', sans-serif; /* Fuente decorativa para títulos */
+    font-weight: bold; /* Mantener negrita */
+    font-size: 2.5em; /* Tamaño reducido */
+    letter-spacing: 3px; /* Mayor separación entre letras */
+    text-transform: uppercase; /* Letras en mayúsculas */
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Estilo para el contenido */
+p, li {
+    font-weight: bold; /* Mantener el texto en negrita */
+    font-size: 1em; /* Tamaño más pequeño */
+    letter-spacing: 1px; /* Ligero espaciado entre letras */
+    line-height: 1.6;
+}
+
+/* Enlaces */
+a {
+    font-weight: bold; /* Enlaces en negrita */
+    color: #FFD700; /* Color dorado para enlaces */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ff8c00; /* Color al pasar el mouse */
+}
+
+/* Estilo para botones de redes sociales (fuentes anteriores) */
+.btn-instagram {
+    background-color: #8a3ab9 !important;
+    color: white;
+    border: none;
+    padding: 8px 16px; /* Ajusté el tamaño del botón */
+    font-family: 'Arial', sans-serif; /* Fuente normal (como estaba anteriormente) */
+    font-weight: bold; /* Mantener negrita */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px; /* Tamaño más pequeño */
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-instagram:hover {
+    background-color: #833ab4a4 !important;
+}
+
+.btn-youtube {
+    background-color: #FF0000 !important;
+    color: white;
+    border: none;
+    padding: 8px 16px; /* Ajusté el tamaño del botón */
+    font-family: 'Arial', sans-serif; /* Fuente normal (como estaba anteriormente) */
+    font-weight: bold; /* Mantener negrita */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px; /* Tamaño más pequeño */
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-youtube:hover {
+    background-color: #cc0000 !important;
+}
+
+.btn-spotify {
+    background-color: #1DB954 !important;
+    color: white;
+    border: none;
+    padding: 8px 16px; /* Ajusté el tamaño del botón */
+    font-family: 'Arial', sans-serif; /* Fuente normal (como estaba anteriormente) */
+    font-weight: bold; /* Mantener negrita */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px; /* Tamaño más pequeño */
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-spotify:hover {
+    background-color: #1aa34a !important;
+}
+
+/* Estilo para imágenes circulares */
+.img-circle {
+    border-radius: 50%;
+    border: 5px solid black;
+    width: 120px; /* Ajusté el tamaño */
+    height: 120px; /* Ajusté el tamaño */
+    object-fit: cover;
+}
+
+/* Estilo para los textos de los formularios */
+input, textarea {
+    font-weight: bold; /* Campos en negrita */
+    font-size: 1em; /* Tamaño más pequeño */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* Estilo para el carrito de compras */
+#carrito {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+#carrito h2 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.table {
+    margin-top: 10px;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.btn-success {
+    margin-top: 10px;
+}
+
+#playlist {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+#playlist .list-group-item {
+    cursor: pointer;
+    padding: 8px 16px; /* Ajusté el tamaño del item */
+    border: 1px solid #444;
+    border-radius: 5px;
+    margin-bottom: 8px; /* Ajusté el margen */
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold;
+}
+
+#playlist .list-group-item:hover {
+    background-color: #FFD700;
+    color: #000;
+}
+
+#playlist .list-group-item.active {
+    background-color: #FFD700;
+    color: #000;
+    font-weight: bold;
+}
+
+/* Estilo para los formularios de contacto */
+form {
+    font-weight: bold; /* Formularios en negrita */
+}
+
+form button {
+    font-weight: bold; /* Botones de formulario en negrita */
+}
+
+/* Estilo para los enlaces del formulario */
+form a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+form a:hover {
+    text-decoration: underline;
+}
+#inicio {
+    padding-top: 100px; /* Ajusta el valor según la altura de tu navbar */
+}
